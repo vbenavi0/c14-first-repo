@@ -43,3 +43,20 @@ body {
     background-color: #333;
     color: #fff;
   }
+  /* Media Q for differnet devices */
+  /* Phone */
+  
+  @media screen and (max-width:760px){
+    header, nav, section, footer {
+        padding: 20px;
+        font-size: 24px;
+        background-color: yellow;
+      }
+  }
+  @media screen and (max-width:390px){
+    header, nav, section, footer {
+        padding: 20px;
+        font-size: 24px;
+        background-color: aquamarine;
+      }
+  }
